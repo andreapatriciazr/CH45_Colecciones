@@ -1,3 +1,4 @@
+import java.util.HashMap;
 
 public class Course {
 		    String name;
@@ -26,4 +27,9 @@ public class Course {
 		    public String toString(){
 		        return "Course{" + "name='" + name + '\'' + ", id='" + id + '\'' + ", credits=" + credits + '}';
 		    }
+
+			public HashMap<String, Student> get(String courseId) {
+				// TODO Auto-generated method stub
+				return null;
+			}
 } // class Course
